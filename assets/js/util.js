@@ -453,7 +453,6 @@
 
 				})
 				.on('reset', function(event) {
-
 					event.preventDefault();
 
 					$this.find('select')
