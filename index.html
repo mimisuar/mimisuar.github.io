@@ -19,6 +19,7 @@
 					<li><a href="#top">Top</a></li>
 					<li><a href="#skills">Skills</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#personalprojects">Personal Projects</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -81,6 +82,30 @@
 									I added the Steam achivement code to the project, and helped with marketing by reaching out to various YouTubers and indie game publications. 
 
 									Check out videos of the game on YouTube, or check out the <a href="https://store.steampowered.com/app/1517510/Horatama/">Steam store page</a>!
+								</p>
+							</article>
+					</div>
+				</div>
+			</article>
+
+			<!-- Personal Projects -->
+			<article id="personalprojects" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Things I've done in my free time</h2>
+					</header>
+					<div class="row">
+							<article class="box style2">
+								<a class="image featured"><img src="images/sasm.png" alt="" /></a>
+								<h3><a href="#">SES (Sheep Entertainment System)</a></h3>
+								<p>This is a small project I started working on back in a highschool. I was interesting in trying to write a really barebones NES emulator, but found it too challenging for me at the time so I started working on a fantasy console.
+									I designed a small CPU with memory specifications and CPU flags. I needed someway to actually code the thing, so I wrote a little assembly-inspired language, and a compiler I wrote in Lua.
+									The language, SASM (SES Assembly), had support for procedures, macros, inline memory initialization (.db), and a simple "#include" function. 
+									<p>The actually project was written in C++ using SFML for windowing and rendering. I was able to implement all of the opcodes from the "CPU", and I added basic input support, so you can use the keyboard as a controller. 
+										I also designed a sandboxed filesystem for the console, allowing programs to store and recall data. The last thing I was able to implement in the project befor graduating high school was a graphics system, allowing programs to render simple sprites to the screen.
+									</p>
+
+									<p>Currently, the project is in a state of limbo, but I tinker with it from time to time. My current objectives are to fix the graphics system, and to implement a trivial audio synthesis module.</p>
 								</p>
 							</article>
 					</div>
