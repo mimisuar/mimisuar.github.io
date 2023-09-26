@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
+article, aside, details, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -1960,6 +1960,9 @@ body > article {
   #copyright li:first-child {
     margin-top: 0;
   }
+}
+figure figcaption {
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

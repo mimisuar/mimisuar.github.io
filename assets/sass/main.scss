@@ -44,10 +44,14 @@
 		vertical-align: baseline;
 	}
 
-	article, aside, details, figcaption, figure,
+	article, aside, details, figure,
 	footer, header, hgroup, menu, nav, section {
 		display: block;
+
+		
 	}
+
+	
 
 	body {
 		line-height: 1;
@@ -1201,4 +1205,10 @@
 				}
 			}
 
+	}
+
+	figure {
+		figcaption {
+			text-align: center;
+		}
 	}
