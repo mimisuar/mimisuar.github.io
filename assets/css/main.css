@@ -1295,6 +1295,12 @@ article:last-child {
   margin-left: auto;
   margin-right: auto;
 }
+.image img.highlands {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .image.fit {
   display: block;
   width: 100%;
